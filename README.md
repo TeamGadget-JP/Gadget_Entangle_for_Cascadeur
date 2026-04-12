@@ -1,4 +1,4 @@
-# Gadget Entangle for Cascadeur (Evaluation Build)
+# Gadget Entangle for Cascadeur (Evaluation Build)　Important: This only works in Windows environments.
 
 Welcome to the evaluation repository for "Gadget Entangle."
 This package contains the compiled core logic (DLLs/PYC) designed to demonstrate the zero-latency "Real-time Live Previz" capabilities directly within Unity's Play Mode.
