@@ -31,7 +31,7 @@ Your support is my greatest motivation to continue developing tools like this (i
 2. **Launch Dashboard:** From the top menu, click `Gadget > Gadget Entangle Dashboard`.
 3. **Start Unity:** Press the **Play Button** in Unity to enter Play Mode.
 4. **Connect:** Click the `🟢 CONNECT (Start)` button on the Dashboard.
-5. **Sync in Cascadeur:** Open Cascadeur, run the `Gadget Entangle (Subscribe)` script, and select `Sync on Focus`.
+5. **Sync in Cascadeur:** Open Cascadeur, run the script via `Commands > Gadget Entangle for Cascadeur`, and verify that `standing by!` appears in the Event log. You are good to go!
 
 You can now freely control the character in Cascadeur and experience the ultra-low latency synchronization while the Unity Play Mode environment (physics, lighting, etc.) is fully active!
 
@@ -71,6 +71,6 @@ You can now freely control the character in Cascadeur and experience the ultra-l
 2. **ダッシュボード起動:** Unity上部メニューから `Gadget > Gadget Entangle Dashboard` をクリックします。
 3. **Unity再生:** Unityの **Playボタン** を押してプレイモードに入ります。
 4. **接続待機:** ダッシュボードの `🟢 CONNECT (Start)` ボタンを押します。
-5. **Cascadeurで同期開始:** Cascadeurを開き、`Gadget Entangle (Subscribe)` スクリプトを実行して `Sync on Focus` を選択します。
+5. **Cascadeurで同期開始:** Cascadeurを開き、`Commands > Gadget Entangle for Cascadeur` スクリプトを実行して、Event logに `standing by!` が表示されればOKです！
 
 これで準備完了です！Cascadeur側でキャラクターを動かすと、Unityのプレイモード上で物理演算やライティングが効いた状態のまま、超低遅延でモーションが同期します！
