@@ -24,7 +24,7 @@ Your support is my greatest motivation to continue developing tools like this (i
 
 ### 2. Unity Setup
 1. Create a **New Empty Project** in Unity (Recommended version: Unity 6 / URP).
-2. Download the `GEC_EvaluationBuild.unitypackage` from this repository. *(Note: File name remains 'EvaluationBuild' but is fully functional).*
+2. Download the `GEC_v1.0.0.unitypackage` from this repository. *(Note: File name remains 'EvaluationBuild' but is fully functional).*
 3. Import the package into your Unity project (`Assets > Import Package > Custom Package...`).
 
 ## 🎮 How to Use (Testing the Real-time Sync)
@@ -65,7 +65,7 @@ You can now freely control the character in Cascadeur and experience the ultra-l
 
 ### 2. Unity側の準備
 1. Unityで**空の新規プロジェクト**を作成します（推奨：Unity 6 / URP環境）。
-2. このリポジトリから `GEC_EvaluationBuild.unitypackage` をダウンロードします。
+2. このリポジトリから `GEC_v1.0.0.unitypackage` をダウンロードします。
 3. Unityプロジェクトにインポートします（`Assets > Import Package > Custom Package...`）。
 
 ## 🎮 使い方（リアルタイム同期の実行）
