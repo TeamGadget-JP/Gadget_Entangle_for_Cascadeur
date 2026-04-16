@@ -14,7 +14,7 @@ Your support is my greatest motivation to continue developing tools like this (i
 
 ---
 
-## 🚀 Installation Guide
+## 🚀 Installation Guide* **Windows Only:** This tool currently only supports Windows environments. macOS and Linux are not supported.
 
 ### 1. Cascadeur Setup
 1. Download the `gec_live_link.pyc` file from this repository.
@@ -54,7 +54,7 @@ You can now freely control the character in Cascadeur and experience the ultra-l
 
 ---
 
-## 🚀 導入手順
+## 🚀 導入手順* **Windows専用:** 本ツールは現在、Windows環境でのみ動作します。macOSやLinuxには対応しておりません。
 
 ### 1. Cascadeur側の準備
 1. このリポジトリから `gec_live_link.pyc` をダウンロードします。
