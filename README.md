@@ -10,7 +10,7 @@ This tool provides ultra-low latency, real-time Live Previz synchronization dire
 ## 🙏 Support the Project!
 This tool is completely free to use. However, if you find it helpful for your workflow, I would greatly appreciate it if you could **Subscribe to my YouTube channel and Like the videos!**
 Your support is my greatest motivation to continue developing tools like this (including an upcoming iClone sync tool!).
-▶️ **[Insert Your YouTube Channel Link Here]**
+▶️ https://youtu.be/kNBWSCf2cIw
 
 ---
 
@@ -50,7 +50,7 @@ You can now freely control the character in Cascadeur and experience the ultra-l
 ## 🙏 開発者からのお願い
 本ツールは完全無料でお使いいただけます。もし皆様の制作のお役に立てましたら、ぜひ**YouTubeチャンネルの登録と高評価**をお願いいたします！
 皆様からの応援が、今後の開発（現在進行中のiClone同期ツールなど）の最大のモチベーションになります！
-▶️ **[あなたのYouTubeチャンネルのリンクをここに記載]**
+▶️ https://youtu.be/kNBWSCf2cIw
 
 ---
 
