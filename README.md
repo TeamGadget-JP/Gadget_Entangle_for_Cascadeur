@@ -3,7 +3,7 @@
 Welcome to "Gadget Entangle for Cascadeur" (GEC)! 
 This tool provides ultra-low latency, real-time Live Previz synchronization directly between Cascadeur and Unity's Play Mode.
 
-## ⚠️ Important Notice / 免責事項
+## ⚠️ Important Notice
 * **No Support (As-Is):** I am a solo developer working in the industrial engineering field. Therefore, providing individual technical support is practically impossible. This tool is provided "as-is" and completely free, without official support.
 * **License Requirement:** To comply with Nekki's licensing terms, **this tool does NOT work with the Cascadeur Free license.** A valid Indie, Pro, or Teams license logged into Cascadeur is strictly required to establish the connection.
 
