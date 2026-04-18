@@ -76,3 +76,11 @@ You can now freely control the character in Cascadeur and experience the ultra-l
 5. **Cascadeurで同期開始:** Cascadeurを開き、`Commands > Gadget Entangle for Cascadeur` スクリプトを実行して、Event logに `standing by!` が表示されればOKです！
 
 これで準備完了です！Cascadeur側でキャラクターを動かすと、Unityのプレイモード上で物理演算やライティングが効いた状態のまま、超低遅延でモーションが同期します！
+
+
+## ⚖️ License
+This software is provided under a proprietary license. Unauthorized redistribution, modification, and reverse engineering (decompiling) are strictly prohibited. 
+For full details, please read the [LICENSE](./LICENSE) file.
+
+本ソフトウェアは独自ライセンスのもとで提供されています。無断再配布、改変、および逆コンパイル（リバースエンジニアリング）は固く禁じられています。
+詳細については、[LICENSE](./LICENSE) ファイルをご確認ください。
