@@ -77,7 +77,13 @@ You can now freely control the character in Cascadeur and experience the ultra-l
 
 これで準備完了です！Cascadeur側でキャラクターを動かすと、Unityのプレイモード上で物理演算やライティングが効いた状態のまま、超低遅延でモーションが同期します！
 
+## 🚀 Roadmap / Upcoming Features (次期アップデート予定)
+We are constantly improving the tool. The following features will be added in the next minor version update:
+現在、以下の機能を次期マイナーバージョンアップに向けて開発中です：
 
+- [ ] **Hybrid Lerp Adjustment UI (部位別Lerp調整UI)**
+  - Users will be able to adjust Lerp values (0 - 60) per body part to completely prevent foot sliding and control character weight.
+  - 足滑りを完全に防ぐため、ユーザーが部位ごと（足、体幹など）の補間強度（0〜60）をUIから直接チューニングできるようになります。
 ## ⚖️ License
 This software is provided under a proprietary license. Unauthorized redistribution, modification, and reverse engineering (decompiling) are strictly prohibited. 
 For full details, please read the [LICENSE](./LICENSE) file.
