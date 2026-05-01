@@ -37,7 +37,6 @@ Your support is my greatest motivation to continue developing tools like this (i
 You can now freely control the character in Cascadeur and experience the ultra-low latency synchronization while the Unity Play Mode environment (physics, lighting, etc.) is fully active!
 
 ### ⚠️ Prop meshes not syncing in Unity Editor (URP Environment)
-**【English】**
 In newer Unity URP environments, you might encounter an issue where a Prop's Transform values update correctly, but the mesh itself remains frozen in the Scene view. 
 This is caused by the "GPU Resident Drawer," an aggressive rendering cache feature in URP, interfering during Editor mode. Please follow these steps to resolve it:
 
@@ -88,7 +87,6 @@ This is caused by the "GPU Resident Drawer," an aggressive rendering cache featu
 これで準備完了です！Cascadeur側でキャラクターを動かすと、Unityのプレイモード上で物理演算やライティングが効いた状態のまま、超低遅延でモーションが同期します！
 
 ### ⚠️ プロップのメッシュがエディターで同期しない場合 (URP環境)
-**【日本語】**
 最新のUnity URP（Universal Render Pipeline）環境において、Cascadeurからの接続時にプロップ（小道具）のTransform数値は更新されるのに、メッシュの見た目がシーンビュー上で追従しない現象が発生する場合があります。
 これはURPの強力な描画キャッシュ機能がエディターモードで干渉しているために起こります。以下の手順で設定を変更してください。
 
