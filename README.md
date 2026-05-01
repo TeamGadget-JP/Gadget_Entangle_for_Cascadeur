@@ -36,6 +36,16 @@ Your support is my greatest motivation to continue developing tools like this (i
 
 You can now freely control the character in Cascadeur and experience the ultra-low latency synchronization while the Unity Play Mode environment (physics, lighting, etc.) is fully active!
 
+### ⚠️ Prop meshes not syncing in Unity Editor (URP Environment)
+**【English】**
+In newer Unity URP environments, you might encounter an issue where a Prop's Transform values update correctly, but the mesh itself remains frozen in the Scene view. 
+This is caused by the "GPU Resident Drawer," an aggressive rendering cache feature in URP, interfering during Editor mode. Please follow these steps to resolve it:
+
+1. Select your active **URP Asset** in the Project window (e.g., `Assets/Settings/PC_RPAsset`).
+   *(Note: If you cannot find it, go to `Edit > Project Settings > Graphics` and check the asset assigned at the very top.)*
+2. In the Inspector window, navigate to the `Rendering` section.
+3. Change the `GPU Resident Drawer` setting from `Instanced Drawing` to **`Disabled`**.
+
 ---
 ---
 
@@ -76,6 +86,16 @@ You can now freely control the character in Cascadeur and experience the ultra-l
 5. **Cascadeurで同期開始:** Cascadeurを開き、`Commands > Gadget Entangle for Cascadeur` スクリプトを実行して、Event logに `standing by!` が表示されればOKです！
 
 これで準備完了です！Cascadeur側でキャラクターを動かすと、Unityのプレイモード上で物理演算やライティングが効いた状態のまま、超低遅延でモーションが同期します！
+
+### ⚠️ プロップのメッシュがエディターで同期しない場合 (URP環境)
+**【日本語】**
+最新のUnity URP（Universal Render Pipeline）環境において、Cascadeurからの接続時にプロップ（小道具）のTransform数値は更新されるのに、メッシュの見た目がシーンビュー上で追従しない現象が発生する場合があります。
+これはURPの強力な描画キャッシュ機能がエディターモードで干渉しているために起こります。以下の手順で設定を変更してください。
+
+1. Projectウィンドウから、現在使用している**URPアセット**を選択します（例: `Assets/Settings/PC_RPAsset` など）。
+   *(※場所が不明な場合は、上部メニューの `Edit > Project Settings > Graphics` を開き、一番上に設定されているファイルを確認してください)*
+2. Inspectorウィンドウ上部の `Rendering` 項目を開きます。
+3. `GPU Resident Drawer` の設定を `Instanced Drawing` から **`Disabled`** に変更します。
 
 ## 🚀 Roadmap / Upcoming Features (次期アップデート予定)
 We are constantly improving the tool. The following features will be added in the next minor version update:
