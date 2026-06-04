@@ -36,6 +36,25 @@ Your support is my greatest motivation to continue developing tools like this (i
 
 You can now freely control the character in Cascadeur and experience the ultra-low latency synchronization while the Unity Play Mode environment (physics, lighting, etc.) is fully active!
 
+## GEC Multi-Character Synchronization with Identical Bone Names  
+### Example: Synchronizing Two Characters
+### Prerequisite
+GEC uses only bone names as IDs.  
+If multiple characters have identical bone names, a prefix must be added to distinguish them.
+### Procedure
+1. Import the first character normally.  
+   Do not use any bone prefix.  
+   Then rig the character using **RIG HELPER**.
+2. Create a new scene from **File -> New Scene**.  
+   Import the second character into that new scene, and rig it using **RIG HELPER**.
+3. Save the second character scene as a native Cascadeur file (`.casc`) with any name.
+4. Return to the scene containing the first character.  
+   Import the `.casc` file saved in step 3 using:  
+   **File -> Import -> Import Scene To Current...**
+5. The second character will now be imported into the scene containing the first character.  
+   If the characters have identical bone names, Cascadeur will automatically add a prefix such as `character1:` to the second character.
+6. In Unity, configure the Cascadeur-side bone names for each character individually in the character-specific bone settings.
+
 ### ⚠️ Prop meshes not syncing in Unity Editor (URP Environment)
 In newer Unity URP environments, you might encounter an issue where a Prop's Transform values update correctly, but the mesh itself remains frozen in the Scene view. 
 This is caused by the "GPU Resident Drawer," an aggressive rendering cache feature in URP, interfering during Editor mode. Please follow these steps to resolve it:
@@ -86,6 +105,24 @@ This is caused by the "GPU Resident Drawer," an aggressive rendering cache featu
 
 これで準備完了です！Cascadeur側でキャラクターを動かすと、Unityのプレイモード上で物理演算やライティングが効いた状態のまま、超低遅延でモーションが同期します！
 
+## GECで同名ボーンを持つキャラクターをマルチ同期する手順
+例：2体同期の場合
+### 前提
+GECは、ボーン名を同期対象のIDとして使用しています。  
+そのため、同名ボーンを持つ複数キャラクターを同時に同期する場合は、2体目以降のボーン名にプレフィックスを付与する必要があります。
+### 手順
+1. 1体目のキャラクターを通常通りインポートします。  
+   この時点では、ボーン・プレフィックスは付けません。  
+   その後、RIG HELPERでリギングを行います。
+2. `File -> New Scene` で新しいシーンを作成します。  
+   その新しいシーンに2体目のキャラクターをインポートし、RIG HELPERでリギングを行います。
+3. 2体目のキャラクターが含まれるシーンを、任意の名前でCascadeurネイティブ形式（`.casc`）として保存します。
+4. 1体目のキャラクターがいるシーンに戻り、  
+   `File -> Import -> Import Scene To Current...` から、手順3で保存した `.casc` ファイルをインポートします。
+5. これで、1体目のキャラクターがいるシーンに2体目のキャラクターが追加されます。  
+   同名ボーンが存在する場合、Cascadeur側で2体目のキャラクターのボーン名に自動的に `character1:` というプレフィックスが付与されます。
+6. Unity側のキャラクター個別ボーン設定で、Cascadeur側のボーン名に合わせて設定してください。
+
 ### ⚠️ プロップのメッシュがエディターで同期しない場合 (URP環境)
 最新のUnity URP（Universal Render Pipeline）環境において、Cascadeurからの接続時にプロップ（小道具）のTransform数値は更新されるのに、メッシュの見た目がシーンビュー上で追従しない現象が発生する場合があります。
 これはURPの強力な描画キャッシュ機能がエディターモードで干渉しているために起こります。以下の手順で設定を変更してください。
@@ -102,6 +139,7 @@ We are constantly improving the tool. The following features will be added in th
 - [ ] **Hybrid Lerp Adjustment UI (部位別Lerp調整UI)**
   - Users will be able to adjust Lerp values (0 - 60) per body part to completely prevent foot sliding and control character weight.
   - 足滑りを完全に防ぐため、ユーザーが部位ごと（足、体幹など）の補間強度（0〜60）をUIから直接チューニングできるようになります。
+
 ## ⚖️ License
 This software is provided under a proprietary license. Unauthorized redistribution, modification, and reverse engineering (decompiling) are strictly prohibited. 
 For full details, please read the [LICENSE](./LICENSE) file.
