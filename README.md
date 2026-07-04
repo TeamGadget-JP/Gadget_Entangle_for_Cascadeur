@@ -3,7 +3,7 @@ the successor to **Gadget Entangle for Cascadeur (GEC)**, is now available.<br>
 While inheriting the core functionality of GEC, CEU has been further refined to make it easier to use and more efficient.<br>
 Please give both versions a try and use whichever one works best for your workflow.<br>
 **Gadget Entangle for Cascadeur (GEC)**<br>
-https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Unity<br>
+[Gadget Entangle for Cascadeur (GEC)](https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Unity)<br>
 
 Gadget Entangle for Cascadeur (GEC)の後継となる<br>
 Cascadeur Entangle for Unity (CEU)をベータ・リリースしています。<br>
