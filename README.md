@@ -18,19 +18,6 @@ https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Unity<br>
 
 ---
 # Gadget Entangle for Cascadeur (GEC)
-
-Welcome to "Gadget Entangle for Cascadeur" (GEC)! 
-This tool provides ultra-low latency, real-time Live Previz synchronization directly between Cascadeur and Unity's Play Mode.
-
-## ⚠️ Important Notice
-* **No Support (As-Is):** I am a solo developer working in the industrial engineering field. Therefore, providing individual technical support is practically impossible. This tool is provided "as-is" and completely free, without official support.
-* **License Requirement:** To comply with Nekki's licensing terms, **this tool does NOT work with the Cascadeur Free license.** A valid Indie, Pro, or Teams license logged into Cascadeur is strictly required to establish the connection.
-
-## 🙏 Support the Project!
-This tool is completely free to use. However, if you find it helpful for your workflow, I would greatly appreciate it if you could **Subscribe to my YouTube channel and Like the videos!**
-Your support is my greatest motivation to continue developing tools like this (including an upcoming iClone sync tool!).
-▶️ [https://youtu.be/kNBWSCf2cIw](https://www.youtube.com/channel/UCj9OYwzMAIgYAeVkTV4wczw)
-
 ---
 **Windows Only:** This tool currently only supports Windows environments. macOS and Linux are not supported.
 
@@ -85,25 +72,11 @@ This is caused by the "GPU Resident Drawer," an aggressive rendering cache featu
 
 ---
 ---
-
 # Gadget Entangle for Cascadeur (日本語版)
-
-「Gadget Entangle for Cascadeur (GEC)」へようこそ！
-このツールは、CascadeurとUnity（プレイモード）を直接繋ぎ、超低遅延のリアルタイム同期（Live Previz）を実現します。
-
-## ⚠️ 重要な注意事項（必ずお読みください）
-* **サポートなし（現状渡し）:** 開発者は普段、別の本業を抱える個人エンジニアです。そのため、個別の環境に合わせた技術サポートを提供することは事実上不可能です。本ツールは「完全無料・サポート対象外」として提供されます。
-* **ライセンス制限:** 開発元（Nekki）のライセンス規約を厳守するため、**本ツールはCascadeurの「Freeライセンス」では動作しない仕様**となっております。接続には Indie、Pro、Teams のいずれかの有効なライセンスが必要です。
-
-## 🙏 開発者からのお願い
-本ツールは完全無料でお使いいただけます。もし皆様の制作のお役に立てましたら、ぜひ**YouTubeチャンネルの登録と高評価**をお願いいたします！
-皆様からの応援が、今後の開発（現在進行中のiClone同期ツールなど）の最大のモチベーションになります！
-▶️ [https://youtu.be/kNBWSCf2cIw](https://www.youtube.com/channel/UCj9OYwzMAIgYAeVkTV4wczw)
-
 ---
 **Windows専用:** 本ツールは現在、Windows環境でのみ動作します。macOSやLinuxには対応しておりません。
 
-## 🚀 導入手順* 
+##  導入手順* 
 
 ### 1. Cascadeur側の準備
 1. このリポジトリから `gec_live_link.pyc` をダウンロードします。
@@ -150,14 +123,6 @@ GECは、ボーン名を同期対象のIDとして使用しています。
    *(※場所が不明な場合は、上部メニューの `Edit > Project Settings > Graphics` を開き、一番上に設定されているファイルを確認してください)*
 2. Inspectorウィンドウ上部の `Rendering` 項目を開きます。
 3. `GPU Resident Drawer` の設定を `Instanced Drawing` から **`Disabled`** に変更します。
-
-## 🚀 Roadmap / Upcoming Features (次期アップデート予定)
-We are constantly improving the tool. The following features will be added in the next minor version update:
-現在、以下の機能を次期マイナーバージョンアップに向けて開発中です：
-
-- [ ] **Hybrid Lerp Adjustment UI (部位別Lerp調整UI)**
-  - Users will be able to adjust Lerp values (0 - 60) per body part to completely prevent foot sliding and control character weight.
-  - 足滑りを完全に防ぐため、ユーザーが部位ごと（足、体幹など）の補間強度（0〜60）をUIから直接チューニングできるようになります。
 
 ## ⚖️ License
 This software is provided under a proprietary license. Unauthorized redistribution, modification, and reverse engineering (decompiling) are strictly prohibited. 
