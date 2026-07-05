@@ -21,7 +21,7 @@ https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Unity<br>
 ---
 **Windows Only:** This tool currently only supports Windows environments. macOS and Linux are not supported.
 
-## 🚀 Installation Guide* 
+## Installation Guide* 
 
 ### 1. Cascadeur Setup
 1. Download the `gec_live_link.pyc` file from this repository.
@@ -33,7 +33,7 @@ https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Unity<br>
 2. Download the `GEC_v1.0.0.unitypackage` from this repository. *(Note: File name remains 'EvaluationBuild' but is fully functional).*
 3. Import the package into your Unity project (`Assets > Import Package > Custom Package...`).
 
-## 🎮 How to Use (Testing the Real-time Sync)
+## How to Use (Testing the Real-time Sync)
 1. **Open the Scene:** Open the `SampleScene` included in the package.
 2. **Launch Dashboard:** From the top menu, click `Gadget > Gadget Entangle Dashboard`.
 3. **Start Unity:** Press the **Play Button** in Unity to enter Play Mode.
@@ -61,7 +61,7 @@ If multiple characters have identical bone names, a prefix must be added to dist
    If the characters have identical bone names, Cascadeur will automatically add a prefix such as `character1:` to the second character.
 6. In Unity, configure the Cascadeur-side bone names for each character individually in the character-specific bone settings.
 
-### ⚠️ Prop meshes not syncing in Unity Editor (URP Environment)
+### Prop meshes not syncing in Unity Editor (URP Environment)
 In newer Unity URP environments, you might encounter an issue where a Prop's Transform values update correctly, but the mesh itself remains frozen in the Scene view. 
 This is caused by the "GPU Resident Drawer," an aggressive rendering cache feature in URP, interfering during Editor mode. Please follow these steps to resolve it:
 
@@ -88,7 +88,7 @@ This is caused by the "GPU Resident Drawer," an aggressive rendering cache featu
 2. このリポジトリから `GEC_v1.0.0.unitypackage` をダウンロードします。
 3. Unityプロジェクトにインポートします（`Assets > Import Package > Custom Package...`）。
 
-## 🎮 使い方（リアルタイム同期の実行）
+## 使い方（リアルタイム同期の実行）
 1. **シーンを開く:** パッケージ内の `SampleScene` を開きます。
 2. **ダッシュボード起動:** Unity上部メニューから `Gadget > Gadget Entangle Dashboard` をクリックします。
 3. **Unity再生:** Unityの **Playボタン** を押してプレイモードに入ります。
@@ -115,7 +115,7 @@ GECは、ボーン名を同期対象のIDとして使用しています。
    同名ボーンが存在する場合、Cascadeur側で2体目のキャラクターのボーン名に自動的に `character1:` というプレフィックスが付与されます。
 6. Unity側のキャラクター個別ボーン設定で、Cascadeur側のボーン名に合わせて設定してください。
 
-### ⚠️ プロップのメッシュがエディターで同期しない場合 (URP環境)
+### プロップのメッシュがエディターで同期しない場合 (URP環境)
 最新のUnity URP（Universal Render Pipeline）環境において、Cascadeurからの接続時にプロップ（小道具）のTransform数値は更新されるのに、メッシュの見た目がシーンビュー上で追従しない現象が発生する場合があります。
 これはURPの強力な描画キャッシュ機能がエディターモードで干渉しているために起こります。以下の手順で設定を変更してください。
 
@@ -124,7 +124,7 @@ GECは、ボーン名を同期対象のIDとして使用しています。
 2. Inspectorウィンドウ上部の `Rendering` 項目を開きます。
 3. `GPU Resident Drawer` の設定を `Instanced Drawing` から **`Disabled`** に変更します。
 
-## ⚖️ License
+## License
 This software is provided under a proprietary license. Unauthorized redistribution, modification, and reverse engineering (decompiling) are strictly prohibited. 
 For full details, please read the [LICENSE](./LICENSE) file.
 
