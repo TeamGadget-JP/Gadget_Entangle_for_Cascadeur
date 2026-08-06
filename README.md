@@ -1,3 +1,13 @@
+日本語（Japanese）
+【重要】Cascadeur 2026.2への対応について
+現在、最新バージョンのCascadeur 2026.2に向けた対応作業を進めております。アップデート完了まで、今しばらくお待ちください。
+なお、仕様変更に伴い、本ツールはCascadeur 2026.2では動作いたしません。引き続きご利用いただく場合は、Cascadeur 2026.1.3にてご使用くださいますようお願いいたします。
+
+英語（English）
+[Important] Regarding Cascadeur 2026.2 Compatibility
+We are currently working on an update to support the latest release, Cascadeur 2026.2. Please bear with us while we complete this process.
+Please note that due to recent changes, this tool does not currently work with Cascadeur 2026.2. If you wish to continue using it, please stay on Cascadeur version 2026.1.3.
+
 ## ⚠️ This is the old version.<br>
 ## Please use the new version via the link below.<br>
 The beta version of Cascadeur Entangle for Unity (CEU),<br> 
