@@ -1,12 +1,16 @@
-日本語（Japanese）
-【重要】Cascadeur 2026.2への対応について
-現在、最新バージョンのCascadeur 2026.2に向けた対応作業を進めております。アップデート完了まで、今しばらくお待ちください。
-なお、仕様変更に伴い、本ツールはCascadeur 2026.2では動作いたしません。引き続きご利用いただく場合は、Cascadeur 2026.1.3にてご使用くださいますようお願いいたします。
+⚠️Cascadeur 2026.2 Compatibility Status<br>
+I will later organize the repository and upload older versions.<br>
+Until then, please back up your old version files.<br>
+Change in installation location (The installation location has changed in 2026.2)<br>
+[Cascadeur installation folder]/resources/scripts/python/scripts/<br>
+Please note that the launch method has been changed from the "Commands" menu to the "Scripts" menu.<br>
 
-英語（English）
-[Important] Regarding Cascadeur 2026.2 Compatibility
-We are currently working on an update to support the latest release, Cascadeur 2026.2. Please bear with us while we complete this process.
-Please note that due to recent changes, this tool does not currently work with Cascadeur 2026.2. If you wish to continue using it, please stay on Cascadeur version 2026.1.3.
+⚠️Cascadeur2026.2対応状況<br>
+後にリポジトリを整理して旧バージョンもアップロードします。<br>
+それまでお手元の古いバージョンのファイルはバックアップして下さい。<br>
+導入場所の変更(2026.2では導入場所が変更されています)<br>
+[Cascadeurインストールフォルダ]/resources/scripts/python/scripts/<br>
+また、CommandsメニューからScriptsメニューからの起動に変更されています、ご注意ください。<br>
 
 ## ⚠️ This is the old version.<br>
 ## Please use the new version via the link below.<br>
