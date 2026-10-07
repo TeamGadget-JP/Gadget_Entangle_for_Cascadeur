@@ -1,3 +1,20 @@
+🚀 Successor Project — Universal Real-Time Sync System
+This repository represents an earlier generation of TeamGadget's real-time synchronization technology.
+Its third-generation successor is the Universal Real-Time Sync System (URSS) — a modular synchronization architecture built around G-HUB, connecting Cascadeur, Unity, Blender, and ShapeMixer Entangle through a common real-time and canonical-timeline framework.
+Active development has moved to:
+Universal Real-Time Sync System
+https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM
+This repository remains available as a legacy reference for the earlier architecture.
+
+🚀 後継プロジェクト — Universal Real-Time Sync System
+このリポジトリは、TeamGadgetが開発してきたリアルタイム同期技術の旧世代にあたるプロジェクトです。
+その第三世代の後継システムとして、現在は Universal Real-Time Sync System（URSS） を開発・公開しています。
+URSSでは G-HUB を中心としたモジュラー構成へ発展し、Cascadeur、Unity、Blender、ShapeMixer Entangleを、共通のリアルタイム同期およびCanonical Timelineの仕組みで接続します。
+現在の開発はこちらへ移行しています。
+Universal Real-Time Sync System
+https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM
+このリポジトリは、旧アーキテクチャの資料・リファレンスとして引き続き公開しています。
+
 ⚠️Cascadeur 2026.2 Compatibility Status<br>
 Change in installation location (The installation location has changed in 2026.2)<br>
 [Cascadeur installation folder]/resources/scripts/python/scripts/<br>
