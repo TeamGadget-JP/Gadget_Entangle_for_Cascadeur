@@ -8,28 +8,6 @@ Please note that the launch method has been changed from the "Commands" menu to 
 [Cascadeurインストールフォルダ]/resources/scripts/python/scripts/<br>
 また、CommandsメニューからScriptsメニューからの起動に変更されています、ご注意ください。<br>
 
-## ⚠️ This is the old version.<br>
-## Please use the new version via the link below.<br>
-The beta version of Cascadeur Entangle for Unity (CEU),<br> 
-the successor to Gadget Entangle for Cascadeur (GEC), is now available.<br>
-While inheriting the core functionality of GEC,<br>
-CEU has been further refined to make it easier to use and more efficient.<br>
-With the new Rig-Agnostic Synchronization feature, manual rig mapping is no longer required.<br>
-It also supports quadrupeds and other non-humanoid rigs,<br> 
-making setup much simpler and the overall workflow much more convenient.<br>
-Please give the new version a try!<br>
-https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Unity<br>
-
-## ⚠️ ここは旧バージョンです。<br>
-## 下記のリンクから新バージョン是非ご利用ください<br>
-Gadget Entangle for Cascadeur (GEC)の後継となる<br>
-Cascadeur Entangle for Unity (CEU)をベータ・リリースしています。<br>
-基本機能は継承しつつ、より一層使い易く且つ効率良くブラッシュアップしました<br>
-新機能のリグ・アグノスティック同期により、リグの紐付け操作を不要とし<br>
-四足型等へも対応しながら、より少ないセットアップで大変使いやすくなっています。<br>
-是非、新バージョンをご利用下さい！<br>
-https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Unity<br>
-
 ---
 # Gadget Entangle for Cascadeur (GEC)
 ---
